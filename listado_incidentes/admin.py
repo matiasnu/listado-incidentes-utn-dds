@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from listado_incidentes.models import Incident
+from listado_incidentes.models import Incidente
 
 # Register your models here.
 
-admin.site.register(Incident)
+admin.site.register(Incidente)

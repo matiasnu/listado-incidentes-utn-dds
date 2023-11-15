@@ -10,8 +10,8 @@
 <body>
 <h1>Lista de Incidentes</h1>
 <ul>
-    {% for incident in incidents %}
-        <li>{{ incident.title }} - {{ incident.date_reported }}</li>
+    {% for incidente in incidentes %}
+        <li>{{ incidente.detalle }} - {{ incidente.fecha_apertura }}</li>
     {% endfor %}
 </ul>
 </body>
